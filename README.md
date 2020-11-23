@@ -1,4 +1,4 @@
-# **Housing, Health and Happiness: a true causality ? **
+# **Housing, Health and Happiness: a true causality ?**
 
 ## Abstract
 In Housing, Health and Happiness, Cattaneao and team set out to determine the impact of replacing dirt floors with cement floors on child health and adult happiness. We have already established that some of their results are reproductible. In the next part of the project, we seek to determine robustness of the results obtained by the authors by conducting the same analysis but using other methods. Furthermore, an additional question regarding the impact of replacing dirt floor with cement will be addressed. Namely, we will determine if the presence of cement flooring in the household, prior to the start of the study, mitigates the causality relationship previously established (cofounder).  
