@@ -11,10 +11,17 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 - *PisoFirme_AEJPol-20070024_household.dta*: dataset with information at the household level. Includes data from both the 2000 Mexican Census and the 2005 Survey. 
 - *PisoFirme_AEJPol-20070024_individual.dta*: dataset with information at the individual level. Includes data from the 2005 Survey.
 
+# Method 
+1. We create a dummy variable for the final outcome (called *HappyHealthy*): it will encompass both health and happiness features that are present in the data. To construct it, we will use a logistic regression that will give a probability of being "happy and health" with a threshold to be defined. 
+2. We create a dummy variable (called *Cement*) identifying households with a certain share of cement floor prior to the study: if the household *Share of rooms with cement floors in 2000*  > median for the feature *Share of rooms with cement floors in 2000*, we consider it to be 1, otherwise 0. 
+3. We create a propensity score to have a share of rooms with cement floors above the median, based on household income, years of education etc. Match households with similar propensity scores to have more than the median share of rooms with cement, but who do not belong to the same group in terms of the *Cement* feature. 
+4. Assess the average treatment effect of having more than the median in terms of share of rooms with cement prior to the study on the final outcome *HappyHealthy*. 
+5. Expected results would be that the Piso project is less impactful on happiness and health for households belonging to the *Cement* group. 
+
 ## Proposed timeline
 1. **By 05.12.20 :** Processing of data and caliper matching; matching of households based on cement share prior to study (and maybe additional features)
 3. **By 15.12.20 :** Establishing the causality relationship between initial presence of cement floor, replacement of dirt floors and child health/maternal happiness. 
 4. **By 18.12.20 :** Complete final report for P4 submission.
 
 ## Questions for TAs
-> We want to match households which received the treatment (Piso Firme) to households that did not based on a "similarity score". The latter could be simply based on the share of cement present in the household prior to the project, or on more complexe features. However, we are not sure on how we should proceed to compute such a score. Do you have any suggestions ? 
+> Do you have any recommendations as to how to compute the propensity score ? 
