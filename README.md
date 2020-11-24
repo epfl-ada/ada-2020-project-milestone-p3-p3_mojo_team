@@ -6,7 +6,7 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 ## Research Questions
 > Do the results obtained in the paper depend on the method use ? 
 
-> Does the presence of cement flooring prior to the study affect the causality relationshio previously established between the replacement of dirt floor with cement and child health and maternal happiness ? 
+> Does the presence of cement flooring prior to the study affect the causality relationship previously established between the replacement of dirt floor with cement and child health and maternal happiness ? 
 
 ## Proposed dataset
 Both datasets used here were made available by the authors of the study. We previously mentioned that we will use analysis strategies different from the ones used by the authors. In line with that approach, we will process the data differently as well (handling of missing values, comparison of houselholds through different caliper matching strategies etc). 
