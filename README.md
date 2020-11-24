@@ -13,7 +13,6 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 
 ## Proposed timeline
 1. **By 05.12.20 :** Processing of data and caliper matching; matching of households based on cement share prior to study (and maybe additional features)
-2. **By 11.12.20 :** Results replication with other analysis strategies 
 3. **By 15.12.20 :** Establishing the causality relationship between initial presence of cement floor, replacement of dirt floors and child health/maternal happiness. 
 4. **By 18.12.20 :** Complete final report for P4 submission.
 
