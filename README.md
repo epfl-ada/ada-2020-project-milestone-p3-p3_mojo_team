@@ -9,7 +9,7 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 > Does the presence of cement flooring in the household, prior to the study, affect the causality relationship previously established between the replacement of dirt floor with cement and child health and maternal happiness ? 
 
 ## Proposed dataset
-Both datasets used here were made available by the authors of the study. We previously mentioned that we will use analysis strategies different from the ones used by the authors. In line with that approach, we will process the data differently as well (handling of missing values, comparison of houselholds through different caliper matching strategies etc). 
+[Both datasets](https://www.openicpsr.org/openicpsr/project/114542/version/V1/view;jsessionid=B4B1AAA8597E1F070A0C683C49E2A11C?path=/openicpsr/114542/fcr:versions/V1/PisoFirme_AEJPol-20070024_STATA-replication-code.do&type=file) used here were made available by the authors of the study. We previously mentioned that we will use analysis strategies different from the ones used by the authors. In line with that approach, we will process the data differently as well (handling of missing values, comparison of houselholds through different caliper matching strategies etc). 
 - *PisoFirme_AEJPol-20070024_household.dta*: dataset with information at the household level. Includes data from both the 2000 Mexican Census and the 2005 Survey. 
 - *PisoFirme_AEJPol-20070024_individual.dta*: dataset with information at the individual level. Includes data from the 2005 Survey.
 
