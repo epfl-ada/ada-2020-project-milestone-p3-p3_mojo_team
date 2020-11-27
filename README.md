@@ -29,11 +29,16 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 ## Proposed timeline
 1. **By 29.11.20 :** Decide how to feature enginneer the *HappyHealthy* variable (what already existing features do we use, how we encompass the effect on all of them at once...).
 2. **By 05.12.20 :** Processing of data and caliper matching; matching of households based on cement share prior to study (and maybe additional features)
-3. **By 15.12.20 :** Establishing the causality relationship between initial presence of cement floor, replacement of dirt floors and child health/maternal happiness. Based on obtained results, define which kind of report we set out to make (scientific report or datastory) and begin writing it. Th workload for the report will be split equally between us.
-4. **By 17.12.20 :** Finish recording video.
-5. **By 18.12.20 :** Complete final report for P4 submission.
+3. **By 15.12.20 :** Establishing the causality relationship between initial presence of cement floor, replacement of dirt floors and child health/maternal happiness. Based on obtained results, define which kind of report we set out to make (scientific report or datastory) and begin writing it. The workload for the report will be split equally between us.
+4. **By 18.12.20 :** Complete final report/datastory for P4 submission.
+5. **By 23.12.20 :** Video pitch recording. 
 
 ## Organization within the team
+- Feature engineering will be done by the whole team together to ensure our dummy variables are defined correctly. 
+- Propensity/similarity scores will be done by Dorian and Myriam individually as to compare the matching obtained by each. 
+- Assessment of the results will be performed by David 
+- Datastory/report writing TBD. Will depend on how teammates' other projects are progressing. 
+- Video recording by teammate with best english accent (TBD)... :-) 
 
 ## Questions for TAs
 > Do you have any recommendations as to how to compute the propensity score ? 
