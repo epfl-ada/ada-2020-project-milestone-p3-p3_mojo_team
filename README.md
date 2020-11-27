@@ -36,7 +36,7 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 ## Organization within the team
 - Feature engineering will be done by the whole team together to ensure our dummy variables are defined correctly. 
 - Propensity/similarity scores will be done by Dorian and Myriam individually as to compare the matching obtained by each. 
-- Assessment of the results will be performed by David 
+- Assessment of the results will be performed by David. 
 - Datastory/report writing TBD. Will depend on how teammates' other projects are progressing. 
 - Video recording by teammate with best english accent (TBD)... :-) 
 
