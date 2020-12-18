@@ -13,14 +13,12 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 
 ## Methods
 ### Feature engineering
-1. We create a dummy variable for the final outcome (called *HappyHealthy*): it will encompass both health and happiness features that are present in the data. To construct it, we will use a logistic regression that will give a probability of being "happy and health" with a threshold to be defined. 
-2. We create a dummy variable (called *Cement*) identifying households with a certain share of cement floor prior to the study: if the household *Share of rooms with cement floors in 2000*  > median for the feature *Share of rooms with cement floors in 2000*, we consider it to be 1, otherwise 0. 
+1. We created a dummy variable for the final outcome (called *Happy*): it encompasses the happiness features that correspond to the satisfaction and maternal mental health features in table (6) of the paper 
+2. We created a dummy variable (called *Cement*) identifying households with a certain share of cement floor prior to the study: if the household *Share of rooms with cement floors in 2000*  > median for the feature *Share of rooms with cement floors in 2000*, we consider it to be 1, otherwise 0. 
 
 ### Propensity scores calculation (2 different possibilities)
-3. *2 possible solutions*
-    a) We create a propensity score to have a share of rooms with cement floors above the median, based on household income, years of education etc. Match households with similar propensity scores to have more than the median share of rooms with cement, but who do not belong to the same group in terms of the *Cement* feature. The propensity score would be computed in a logistic regression fashion, using only the statistically significant features. 
-    
-    b) We create a similarity score that uses all other available features to determine how "alike" two households belonging to different *Cement* classes. To do so, we are considering using NN algorithm without replacement and while minimizing global balance over all matches. As the computational cost could be too high, we might first use a PCA and only the resulting features for the NN matching. 
+
+     We created a propensity score to have a share of rooms with cement floors above the median, based on the number of years of education of the head of the house, of the spouse, the frequency of washing hands and the number of rooms. Match households with similar propensity scores to have more than the median share of rooms with cement, but who do not belong to the same group in terms of the *Cement* feature. The propensity score was computed with 3 different classifiers: the random forest, the decision tree and the gradient boost classifiers.  
  
 ### Treatment effect assessment
 4. Assess the average treatment effect of having more than the median in terms of share of rooms with cement prior to the study on the final outcome *HappyHealthy*. 
