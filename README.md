@@ -18,7 +18,7 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 
 ### Propensity scores calculation (2 different possibilities)
 
-     We created a propensity score to have a share of rooms with cement floors above the median, based on the number of years of education of the head of the house, of the spouse, the frequency of washing hands and the number of rooms. Match households with similar propensity scores to have more than the median share of rooms with cement, but who do not belong to the same group in terms of the *Cement* feature. The propensity score was computed with 3 different classifiers: the random forest, the decision tree and the gradient boost classifiers.  
+We created a propensity score to have a share of rooms with cement floors above the median, based on the number of years of education of the head of the house, of the spouse, the frequency of washing hands and the number of rooms. Match households with similar propensity scores to have more than the median share of rooms with cement, but who do not belong to the same group in terms of the *Cement* feature. The propensity score was computed with 3 different classifiers: the random forest, the decision tree and the gradient boost classifiers.  
  
 ### Treatment effect assessment
 4. Assess the average treatment effect of having more than the median in terms of share of rooms with cement prior to the study on the final outcome *HappyHealthy*. 
