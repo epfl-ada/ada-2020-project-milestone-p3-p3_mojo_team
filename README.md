@@ -36,8 +36,4 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 - Propensity/similarity scores will was done by Dorian and Myriam individually as to compare the matching obtained by each. 
 - Assessment of the results was performed by David. 
 - Datastory/report writing TBD was filled step by step by each member of the team 
-- Video recording by teammate with best english accent (TBD)... :-) 
-
-## Questions for TAs
-> Do you have any recommendations as to how to compute the propensity score ? 
-> Do you recommend using the propensity score as explained in 3a) or the similarity score as explained in 3b) ? 
+- Video recording by teammate with best english accent (TBD)... :-)
