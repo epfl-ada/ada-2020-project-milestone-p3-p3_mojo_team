@@ -34,10 +34,10 @@ In Housing, Health and Happiness, Cattaneao and team set out to determine the im
 5. **By 23.12.20 :** Video pitch recording. 
 
 ## Organization within the team
-- Feature engineering will be done by the whole team together to ensure our dummy variables are defined correctly. 
-- Propensity/similarity scores will be done by Dorian and Myriam individually as to compare the matching obtained by each. 
-- Assessment of the results will be performed by David. 
-- Datastory/report writing TBD. Will depend on how teammates' other projects are progressing. 
+- Feature engineering was done by the whole team together to ensure our dummy variables are defined correctly. 
+- Propensity/similarity scores will was done by Dorian and Myriam individually as to compare the matching obtained by each. 
+- Assessment of the results was performed by David. 
+- Datastory/report writing TBD was filled step by step by each member of the team 
 - Video recording by teammate with best english accent (TBD)... :-) 
 
 ## Questions for TAs
